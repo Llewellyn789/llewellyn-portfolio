@@ -1,0 +1,86 @@
+.project-detail-container {
+  padding: 20px 0;
+  max-width: 1200px; /* Increased to accommodate side-by-side images */
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 25px;
+  color: #007aff;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.project-detail-container h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.project-detail-container h3 {
+  margin: 0 0 15px 0;
+  font-size: 1.3em;
+  color: #1d1d1f;
+}
+
+.project-description {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Before/After container styles */
+.before-after-container {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.image-container {
+  flex: 1;
+  min-width: 300px; /* Ensure images don't get too small */
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.external-project-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #007aff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.external-project-link:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .before-after-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .image-container {
+    width: 100%;
+  }
+} 
