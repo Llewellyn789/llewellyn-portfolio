@@ -1,4 +1,5 @@
 // import React from 'react';
+import { useEffect } from 'react';
 import { Routes, Route, NavLink } from 'react-router-dom';
 
 // Import the page components
@@ -8,6 +9,10 @@ import WebDevPage from './components/WebDevPage';
 import ProjectDetailPage from './components/ProjectDetailPage';
 
 function App() {
+  useEffect(() => {
+    document.title = 'Llewellyn Portfolio';
+  }, []);
+
   return (
     <div className="app-container">
       <nav>
