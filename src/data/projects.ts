@@ -49,6 +49,6 @@ export const projects: Project[] = [
     description: 'An interactive soundboard featuring Rasta-themed sound clips. Built with web audio technology and hosted on Cloudflare Pages.',
     category: 'web-development',
     externalUrl: 'https://rasta-soundboard.pages.dev/',
-    imageUrl: '/images/rasta-soundboard-screenshot.png'
+    imageUrl: '/images/rasta-board.png'
   },
 ]; 
