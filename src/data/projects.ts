@@ -51,4 +51,12 @@ export const projects: Project[] = [
     externalUrl: 'https://rasta-soundboard.pages.dev/',
     imageUrl: '/images/rasta-board.png'
   },
+  {
+    id: 8,
+    title: 'Touch On Or Tick Off',
+    description: 'A web application related to public transport ticketing. Hosted on Cloudflare Pages.',
+    category: 'web-development',
+    externalUrl: 'https://touch-on-or-tick-off.pages.dev/',
+    imageUrl: '/images/touch-on-or-tick-off.png'
+  },
 ]; 
