@@ -29,6 +29,14 @@ export const projects: Project[] = [
     beforeImageUrl: '/images/fitzroy-kitchen-before.png'
   },
   {
+    id: 9,
+    title: 'Prahran',
+    description: 'Modern kitchen renovation in Prahran.',
+    category: 'kitchens',
+    imageUrl: '/images/prahran-after.jpg',
+    beforeImageUrl: '/images/prahran-before.jpg'
+  },
+  {
     id: 5,
     title: 'Portfolio Website',
     description: 'This very website! Built using React, TypeScript, Vite, and react-router-dom for showcasing projects.',
