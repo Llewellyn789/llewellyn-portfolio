@@ -66,4 +66,11 @@ export const projects: Project[] = [
     externalUrl: 'https://touch-on-or-tick-off.pages.dev/',
     imageUrl: '/images/touch-on-or-tick-off.png'
   },
+  {
+    id: 10,
+    title: 'Dreamcatcher',
+    category: 'web-development',
+    externalUrl: 'https://dream-catcher-ai.pages.dev/',
+    imageUrl: '/images/Dreamcatcher-v1.png'
+  },
 ]; 
