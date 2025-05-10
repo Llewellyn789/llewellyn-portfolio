@@ -73,4 +73,11 @@ export const projects: Project[] = [
     externalUrl: 'https://dream-catcher-ai.pages.dev/',
     imageUrl: '/images/Dreamcatcher-v1.png'
   },
+  {
+    id: 11,
+    title: 'WorldView',
+    category: 'web-development',
+    externalUrl: 'https://worldview1.pages.dev/',
+    imageUrl: '/images/worldview.png'
+  },
 ]; 
