@@ -80,4 +80,11 @@ export const projects: Project[] = [
     externalUrl: 'https://worldview1.pages.dev/',
     imageUrl: '/images/worldview.png'
   },
+  {
+    id: 12,
+    title: 'VoiceFlow',
+    category: 'web-development',
+    externalUrl: 'https://voice-flowchart.pages.dev/',
+    imageUrl: '/images/voice-flow-v1.png'
+  },
 ]; 

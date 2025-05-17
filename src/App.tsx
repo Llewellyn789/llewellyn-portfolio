@@ -51,7 +51,7 @@ function App() {
         <Route path="/web-development" element={<WebDevPage />} />
         <Route path="/project/:projectId" element={<ProjectDetailPage />} />
       </Routes>
-    </div>
+      </div>
   );
 }
 
